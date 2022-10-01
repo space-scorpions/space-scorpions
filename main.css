@@ -7,7 +7,7 @@ html, body {
     height: 100%;
     margin: 0 0;
     font-family: 'Lato', sans-serif;
-    background-image: url(uzay3.jpg);
+    background-image: url(uzay4.jpg);
 background-size: cover;
 background-repeat: repeat;
     color: #fff;
@@ -97,15 +97,26 @@ a {
 }
 .screen{
 
-
 width: 1000px;
 height: auto;
 margin-right: auto;
-padding-right: 0px;
 margin-left: auto;
 background-color: black;
 
 }
+
+.screen2{
+
+    width: 1000px;
+    height: auto;
+    margin-right: auto;
+    padding-right: 200px;
+    margin-left: auto;
+    background-color: black;
+    
+    }
+
+
 
 .selector{
 
@@ -148,3 +159,4 @@ margin-top: 200px;
 height: 650px;
 margin-left: 50px;
 }
+
