@@ -7,22 +7,27 @@ html, body {
     height: 100%;
     margin: 0 0;
     font-family: 'Lato', sans-serif;
-    background-color: #000;
+    background-image: url(uzay3.jpg);
+background-size: cover;
+background-repeat: repeat;
     color: #fff;
 }
 
 .world {
     position: absolute;
-    width: 50%;
-    height: 60%;
+
+    width: 65%;
+    height: 80%;
     cursor: pointer;
     cursor: move;
     cursor: -moz-grab;
     cursor: -webkit-grab;
     cursor: grab;
+    
 }
 
 .world-bg {
+
     position: absolute;
     width: 100%;
     height: 100%;
@@ -31,6 +36,7 @@ html, body {
 }
 
 .world-globe {
+
     position: absolute;
     left: 50%;
     top: 50%;
@@ -39,6 +45,7 @@ html, body {
 }
 
 .world-globe-pole {
+
     position: absolute;
     width: 530px;
     height: 530px;
@@ -49,6 +56,7 @@ html, body {
 }
 
 .world-globe-doms-container {
+
     position: absolute;
     left: 50%;
     top: 50%;
@@ -57,6 +65,7 @@ html, body {
 }
 
 .world-globe-halo {
+
     position: absolute;
     left: 50%;
     top: 50%;
@@ -64,6 +73,7 @@ html, body {
     height: 715px;
     margin-left: -368px;
     margin-top: -350px;
+    
 }
 
 
@@ -91,6 +101,7 @@ a {
 width: 1000px;
 height: auto;
 margin-right: auto;
+padding-right: 175px;
 margin-left: auto;
 background-color: black;
 
@@ -127,4 +138,13 @@ margin-top:625px;
 
 
 }
+.screennew{
+display: flex;
+}
 
+.neww{
+
+margin-top: 200px;
+height: 650px;
+margin-left: 50px;
+}
